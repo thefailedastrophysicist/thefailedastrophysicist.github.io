@@ -1,0 +1,13 @@
+---
+layout: default
+title: Home
+---
+
+<div class="hero">
+  <div class="ripples"></div>
+  <div class="overlay">
+    <h1>Physics is not equations.</h1>
+    <p>It’s story, intuition, and beauty.</p>
+    <a href="/lessons" class="cta-button">Start Learning</a>
+  </div>
+</div>
