@@ -1,5 +1,5 @@
 :root{
-  --bg: #0d0d10;
+  --bg: #000000;
   --panel: #141418;
   --text: #eaeaf0;
   --muted: #b8b8c2;
@@ -125,16 +125,25 @@ body.landing #content{ padding-top: 8vh; padding-bottom: 10vh; }
   gap: 1.5rem;
 }
 
-.post-body {
-  max-width: 800px;
-  margin: 2rem auto;
-  padding: 2rem;
-  background: rgba(255, 255, 255, 0.685);
-  color: #111;
-  border-radius: 12px;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
-  line-height: 1.7;
+.lesson-tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
 }
+
+.lesson-tab {
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  background: #f0f0f0;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.lesson-tab:hover {
+  background: #ddd;
+}
+
 
 /* Reduce motion preference */
 @media (prefers-reduced-motion: reduce){

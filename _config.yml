@@ -3,10 +3,11 @@ tagline: "Physicist × Filmmaker × Educator × Writer × Poet"
 description: "Exploring universes in science, film, code, and ideas."
 url: "https://thefailedastrophysicist.github.io/"
 baseurl: ""   # keep empty for user.github.io root sites
-permalink: /lessons/:title/
 
 
-# Default layouts for posts & experience entries
+# Optional: use pretty permalinks globally
+permalink: /:title/
+
 defaults:
   - scope:
       path: ""
@@ -16,4 +17,4 @@ defaults:
       author: "The Failed Astrophysicist"
 
 markdown: kramdown
-plugins: []    # keep empty; GitHub Pages will still build this fine
+plugins: []
