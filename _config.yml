@@ -3,13 +3,8 @@ tagline: "Physicist × Filmmaker × Educator × Writer × Poet"
 description: "Exploring universes in science, film, code, and ideas."
 url: "https://thefailedastrophysicist.github.io/"
 baseurl: ""   # keep empty for user.github.io root sites
-permalink: /writing/:title/
+permalink: /lessons/:title/
 
-# Custom collection for experience letters
-collections:
-  experience:
-    output: true
-    permalink: /experience/:title/
 
 # Default layouts for posts & experience entries
 defaults:

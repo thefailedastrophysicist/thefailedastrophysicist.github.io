@@ -10,6 +10,6 @@ permalink: /
   <div class="hero-cta">
     <a class="btn" href="{{ '/about/' | relative_url }}">About</a>
     <a class="btn ghost" href="https://www.youtube.com/@TheFailedAstrophysicist">YouTube</a>
-    <a class="btn ghost" href="{{ '/writing/' | relative_url }}">Lessons</a>
+    <a class="btn ghost" href="{{ '/lessons/' | relative_url }}">Lessons</a>
   </div>
 </div>

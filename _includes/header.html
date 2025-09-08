@@ -6,6 +6,6 @@
     {% assign here = page.url | default: '/' %}
     <a href="{{ '/' | relative_url }}" class="{% if here == '/' %}active{% endif %}">Home</a>
     <a href="{{ '/about/' | relative_url }}" class="{% if here contains '/about' %}active{% endif %}">About</a>
-    <a href="{{ '/writing/' | relative_url }}" class="{% if here contains '/writing' %}active{% endif %}">Lessons/a>
+    <a href="{{ '/lessons/' | relative_url }}" class="{% if here contains '/lessons' %}active{% endif %}">Lessons/a>
     <a href="https://www.youtube.com/@TheFailedAstrophysicist" target="_blank">YouTube</a>
 </header>
