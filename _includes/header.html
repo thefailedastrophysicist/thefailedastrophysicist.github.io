@@ -1,0 +1,13 @@
+<header class="site-header">
+  <a class="brand" href="{{ '/' | relative_url }}">
+    <span class="brand-mark">✦</span><span class="brand-text">{{ site.title }}</span>
+  </a>
+  <nav class="nav">
+    {% assign here = page.url | default: '/' %}
+    <a href="{{ '/' | relative_url }}" class="{% if here == '/' %}active{% endif %}">Home</a>
+    <a href="{{ '/about/' | relative_url }}" class="{% if here contains '/about' %}active{% endif %}">About</a>
+    <a href="{{ '/experience/' | relative_url }}" class="{% if here contains '/experience' and here != '/' %}active{% endif %}">Experience</a>
+    <a href="{{ '/writing/' | relative_url }}" class="{% if here contains '/writing' %}active{% endif %}">Writing</a>
+    <a href="https://www.youtube.com/@surabhifilms1430" target="_blank">Filmmaking</a>
+    <a href="https://github.com/samsuy0304" target="_blank">GitHub</a>
+</header>
