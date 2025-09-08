@@ -75,28 +75,7 @@ body.landing #content{ padding-top: 8vh; padding-bottom: 10vh; }
 }
 .btn.ghost{ background: transparent; color: var(--text); border: 1px solid var(--border); }
 
-/* Cards + lists */
-.card-list{ list-style:none; padding:0; margin: 24px 0 0; display:grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 16px; }
-.card{
-  background: linear-gradient(180deg, rgba(255,255,255,.02), rgba(255,255,255,.01));
-  border: 1px solid var(--border); border-radius: 16px; padding: 18px;
-  box-shadow: var(--shadow); transition: transform .12s ease, border-color .12s ease;
-}
-.card:hover{ transform: translateY(-2px); border-color: rgba(167,139,250,.5); }
-.card-link{ text-decoration:none; color: inherit; display:block; height:100%; }
-.card-title{
-  margin: 0 0 6px; font-family: "Playfair Display", Georgia, serif; font-size: 1.2rem;
-}
-.card-meta{ color: var(--muted); margin: 0 0 8px; }
-.card-excerpt{ margin: 0 0 12px; color: var(--text); }
-.card-date, .card-tags{ color: var(--muted); font-size: .9rem; }
 
-
-/* Filters */
-.filters{ margin: 6px 0 12px; color: var(--muted); }
-.filters select{
-  background: var(--panel); color: var(--text); border:1px solid var(--border); border-radius: 10px; padding: 6px 10px;
-}
 
 .site-nav {
   display: flex;
@@ -128,16 +107,16 @@ body.landing #content{ padding-top: 8vh; padding-bottom: 10vh; }
   display: block;
   padding: 1.5rem;
   border-radius: 12px;
-  background: #f9f9f9;
+  background: rgba(225,225,225,0.9);
   text-decoration: none;
   color: inherit;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  box-shadow: 0 2px 6px rgba(225, 225, 225, 0.1);
   transition: transform 0.15s ease, box-shadow 0.15s ease;
 }
 
 .lesson-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  box-shadow: 0 4px 20px rgba(214, 122, 0, 0.9);
 }
 
 .lesson-title {
@@ -145,12 +124,13 @@ body.landing #content{ padding-top: 8vh; padding-bottom: 10vh; }
   margin-bottom: 0.5rem;
   font-size: 1.3rem;
   font-weight: 700;
+  color: rgba(0,0,0,1)
 }
 
 .lesson-desc {
   margin: 0;
   font-size: 0.95rem;
-  color: #555;
+  color: rgba(0,0,0,1)
 }
 
 
