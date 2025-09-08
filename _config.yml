@@ -19,12 +19,6 @@ defaults:
     values:
       layout: post
       author: "The Failed Astrophysicist"
-  - scope:
-      path: ""
-      type: "experience"
-    values:
-      layout: post
-      author: "The Failed Astrophysicist"
 
 markdown: kramdown
 plugins: []    # keep empty; GitHub Pages will still build this fine

@@ -1,8 +1,7 @@
 ---
 layout: page
-title: "Writing"
-permalink: /writing/
-subtitle: "Blogs · Articles · Essays"
+title: "Lesson Plan"
+permalink: /lessons/
 ---
 
 <div class="filters">

@@ -1,18 +1,16 @@
 ---
 layout: page
-title: "Our Story"
+title: "My Story"
 permalink: /about/
-subtitle: "Astronomer by training, filmmaker by craft, educator by heart."
+subtitle: "For every failed astrophysicist who still looks up."
 ---
 
-I’m **Suyash Sakhare** — BS in Astronomy, BA in Filmmaking.  
+We are made of the iron forged in the hearts of stars. No wonder we feel a deep connection to the dim little lights scattered across the night sky. At some point in life, almost everyone has dreamt of becoming an astronaut or an astrophysicist. Yet, only a few of us ever make it there.
 
-It is always a little tough to write about yourself without sounding like you’re trying too hard. You won’t find a dramatic life story here, just a few things that make me, me:  
+Some are pulled toward other passions. Some are driven away by unfortunate events. Some lose heart when faced with poorly taught physics. Others lose passion as they struggle with endless equations or the suffocating bureaucracy of academia. Whatever the reason, many of us drift away from the dream, but the dream never truly drifts away from us. It stays, quietly glowing in the background.
 
-1. I enjoy learning new things. Give me YouTube and a few books and I can teach myself almost anything.  
-2. I thrive on organization and planning. I can think quickly on my feet, and I am always trying to improve my workflow — a skill that proves just as useful on film sets as it does in the corporate world.  
-3. I do not believe in half measures. If I am going to do something, I’ll do it properly. If not, I’d rather not do it at all.  
-4. I enjoy working with people. The best ideas and inventions, I believe, happen when people work together for people.  
+My story is no different. I didn’t lose my love for physics; I simply let myself get distracted when I had the chance to pursue it. Because of that, I’ve been left behind—or maybe I left it behind. Still, the visions remain. The music of the cosmos still keeps me awake at night. And I don’t want others to lose that music.
 
+Physics and astrophysics are among the hardest subjects to teach and to learn, especially when professors are better researchers than teachers. Proper resources are scarce, and paywalls block so much of what should be free knowledge. That’s why I built this website: to share what I know, as clearly and openly as I can.
 
-> Want the crisp version? Check the [Experience Letters]({{ '/experience/' | relative_url }}) or browse my [Writing]({{ '/writing/' | relative_url }}).
+I hope these words find you when you feel lost in a tangle of equations that seem both incomprehensible and beautiful. And I hope, in those moments, I can help you see the beauty that first made you look up at the stars.
