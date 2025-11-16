@@ -145,7 +145,7 @@ body.landing #content{ padding-top: 8vh; padding-bottom: 10vh; }
 .post-body p{ margin: 0 0 1.05em; }
 .post-body h2, .post-body h3{ font-family: "Playfair Display", Georgia, serif; margin: 1.4em 0 .6em; }
 .post-body {
-  max-width: 800px;
+  max-width: 1200px;
   margin: 2rem auto;
   padding: 2rem;
   background: rgba(255, 255, 255, 0.685);
